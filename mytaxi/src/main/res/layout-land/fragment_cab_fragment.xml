@@ -1,0 +1,37 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.richie.mytaxi.Cab_fragment"
+    >
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" tools:context="com.example.richie.mytaxi.Cab_fragment">
+
+        <include
+
+            android:id="@+id/toolBar"
+            layout="@layout/app_actionbar"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolBar"
+            android:layout_marginTop="5dp"
+            android:id="@+id/bookingCab"
+            >
+
+        </FrameLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>
+
+
+

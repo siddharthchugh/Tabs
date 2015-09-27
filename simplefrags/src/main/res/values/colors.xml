@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DarkPrimary">#f57c00</color>
+    <color name="Primary">#81D4FA</color>
+    <color name="Accent">#8bc34a</color>
+<color name="color">#fff</color>
+<color name="lightornage">#ffe0b2</color>
+    <color name="ornage">#ff9800</color>
+    <color name="grey">#BDBDBD</color>
+<color name="transparent_ornage">#FFB74D</color>
+<color name="textcolor">#FF8F00</color>
+</resources>

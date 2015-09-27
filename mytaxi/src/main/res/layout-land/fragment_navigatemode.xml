@@ -1,0 +1,122 @@
+<!--
+<org.lucasr.dspec.DesignSpecFrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:designSpec="@raw/tech"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    </org.lucasr.dspec.DesignSpecFrameLayout>
+-->
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/accent"
+    android:layout_height="match_parent"
+    tools:context="com.example.richie.mytoolbar.SlideFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/primary"
+        android:id="@+id/nameData"
+        >
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/ripple_meeting"
+            android:paddingStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            />
+        <!--   <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:id="@+id/imageView1"
+               android:background="@drawable/ripple_meeting"
+               android:paddingStart="10dp"
+               android:layout_marginLeft="20dp"
+               android:layout_toRightOf="@+id/imageView"
+
+                           android:layout_alignBottom="@+id/imageView"
+               android:paddingTop="20dp"
+               />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siddharth Chugh"
+            android:layout_below="@+id/imageView"
+            android:id="@+id/textView3"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left|top" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="siddharthchughs@gmail.com"
+            android:id="@+id/mail"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left|top" />
+
+        <!--<ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView2"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:layout_alignBaseline="@+id/textView3"
+            android:background="@drawable/abc_spinner_mtrl_am_alpha"
+            android:layout_gravity="center_horizontal|top" />
+-->
+
+    </RelativeLayout>
+
+    <!--
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/nameData"
+            android:layout_marginTop="10dp"
+           android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:adjustViewBounds="true"
+                android:alpha="1.0"
+                android:src="@drawable/abc_btn_check_to_on_mtrl_015"/>
+
+        </RelativeLayout>
+    -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/viewRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/nameData"
+        />
+
+
+</RelativeLayout>
+
+
+
+

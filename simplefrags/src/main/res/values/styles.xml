@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimaryDark">@color/DarkPrimary</item>
+        <item name="android:colorAccent">@color/Accent</item>
+
+    </style>
+    <style name="Widget.MyApp.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/ornage</item>
+        <item name="theme">@style/ThemeOverlay.MyApp.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="ThemeOverlay.MyApp.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/ornage</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="AppTheme">
+
+        <item name="android:colorPrimaryDark">@color/DarkPrimary</item>
+        <item name="android:colorAccent">@color/Accent</item>
+       <item name="android:textColor">@color/ornage</item>
+
+
+    </style>
+    <style name="Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/textcolor</item>
+        <item name="android:titleTextStyle">@color/textcolor</item>
+
+    </style>
+
+    <style name="Toolbar_Theme">
+        <item name="colorControlNormal">@color/textcolor</item>
+    </style>
+    <style name="TextAppearance.Widget.Event.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <!--Any text styling can be done here-->
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <!--Any text styling can be done here-->
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+</resources>

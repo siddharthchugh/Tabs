@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.richie.myorder" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme.Base" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/title_activity_sign_in" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".Regsitration_complete"
+            android:label="@string/title_activity_regsitration_complete" >
+        </activity>
+        <activity
+            android:name=".CustomDialog"
+            android:label="@string/title_activity_custom_dialog" >
+        </activity>
+        <activity
+            android:name=".AddItems"
+            android:label="@string/title_activity_add_items" >
+        </activity>
+        <activity
+            android:name=".SelectedItems"
+            android:label="@string/title_activity_selected_items" >
+        </activity>
+        <activity
+            android:name=".DFruits"
+            android:label="@string/title_activity_dfruits" >
+        </activity>
+        <activity
+            android:name=".Fruits"
+            android:label="@string/title_activity_fruits" >
+        </activity>
+        <activity
+            android:name=".Vegetables"
+            android:label="@string/title_activity_vegetables" >
+        </activity>
+        <activity
+            android:name=".Cart"
+            android:label="@string/title_activity_vegetables" >
+        </activity>
+        <activity
+            android:name=".PaymentGateway"
+            android:label="@string/title_activity_payment_gateway" >
+        </activity>
+        <activity
+            android:name=".MainActivity2Activity"
+            android:label="@string/title_activity_main_activity2" >
+        </activity>
+    </application>
+
+</manifest>

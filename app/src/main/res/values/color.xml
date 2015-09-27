@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="darkPrimaryColor">#388e3c</color>
+        <color name="PrimaryColor">#4caf50</color>
+        <color name="accentColor">#7cb342</color>
+        <color name="changeBackground">#ffcc11</color>
+       <color name="thanks_user">#FFA726</color>
+<color name="thanks_bar">#FFCA28</color>
+    <color name="pay_btcolor">#ffeb3b</color>
+    <color name="pay_darkPrimary">#673ab7</color>
+    <color name="pay">#512da8</color>
+
+</resources>

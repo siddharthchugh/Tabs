@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+    <item name="android:colorPrimaryDark">@color/darkPrimaryColor</item>
+
+    </style>
+    <style name="AppPay.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/pay_darkPrimary</item>
+
+    </style>
+
+</resources>

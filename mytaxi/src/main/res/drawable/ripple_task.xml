@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="#fff" xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/mask" android:drawable="@drawable/dashboard_color"></item>
+    <item android:id="@+id/mask" android:drawable="@drawable/toggleripple"></item>
+    <item android:id="@+id/mask" android:drawable="@drawable/buttontoggleright"></item>
+
+</ripple>

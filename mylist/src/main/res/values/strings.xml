@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Mylist</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="country">
+
+        <item>INDIA</item>
+        <item>INDIA</item>
+        <item>INDIA</item>
+        <item>INDIA</item>
+</string-array>
+    <string-array name="capital">
+        <item>INDIA</item>
+        <item>INDIA</item>
+        <item>INDIA</item>
+        <item>INDIA</item>
+
+
+    </string-array>
+        <!--
+        <item>INDIA</item>
+        <item>INDIA</item>
+        <item>INDIA</item>
+        <item>INDIA</item>
+        <item>INDIA</item>
+        <item>INDIA</item>
+        <item>INDIA</item>
+-->
+
+
+</resources>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/accentColor"
+    android:layout_height="match_parent" tools:context="com.example.richie.mytoolbar.SlideFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/nameData"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siddharth Chugh"
+            android:id="@+id/textView3"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="8dp"
+            android:paddingTop="1dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left|top" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView2"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_marginLeft="10dp"
+
+            android:layout_alignBaseline="@+id/textView3"
+            android:background="@drawable/abc_spinner_mtrl_am_alpha"
+            android:layout_gravity="center_horizontal|top" />
+
+<!--
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/imageView3"
+            android:layout_alignRight="@+id/imageView2"
+            android:background="@drawable/abc_ic_go_search_api_mtrl_alpha"
+            android:layout_alignBaseline="@+id/textView3" />
+-->
+
+
+    </RelativeLayout>
+
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView2"
+        android:layout_below="@+id/nameData"
+
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_vertical" />
+
+
+</RelativeLayout>

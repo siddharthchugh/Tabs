@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="primaryDark">#f57c00</color>
+    <color name="primary">#ff9800</color>
+    <color name="accent">#fff</color>
+    <color name="textColor">#fff</color>
+
+    <!--My Profile Layout Colors-->
+    <color name="primaryDarkProfile">#689f38</color>
+    <color name="primaryProfile">#8bc34a</color>
+    <color name="accentProfile">#ff9800</color>
+    <color name="textColorProfile">#fff</color>
+
+
+</resources>

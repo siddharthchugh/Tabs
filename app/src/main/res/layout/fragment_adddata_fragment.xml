@@ -1,0 +1,104 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/accentColor"
+    android:layout_gravity="center">
+
+
+    <Button
+        android:id="@+id/project_Manager"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignWithParentIfMissing="true"
+        android:background="@drawable/rippleviewdash"
+        android:elevation="12dp"
+        android:text="@string/dry_fruits"
+        android:textSize="20sp"
+        android:onClick="manager_Information"
+        />
+
+
+    <Button
+        android:id="@+id/project_Task"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignBaseline="@id/project_Manager"
+        android:layout_toRightOf="@id/project_Manager"
+        android:layout_alignWithParentIfMissing="true"
+        android:background="@drawable/ripple_meeting"
+        android:elevation="12dp"
+        android:text="@string/vegetables"
+        android:textSize="20sp"
+
+        />
+
+
+    <Button
+        android:id="@+id/Employee_Details"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/project_Manager"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@id/project_Manager"
+        android:background="@drawable/ripple_meetings"
+        android:elevation="12dp"
+        android:text="@string/fruits"
+        android:textSize="20sp"
+
+        />
+
+  <!--  <Button
+        android:id="@+id/project_Contacts"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@id/project_Task"
+        android:layout_toRightOf="@id/Employee_Details"
+        android:background="@drawable/ripple_meetings"
+        android:elevation="12dp"
+        android:layout_marginTop="10dp"
+        android:text="Share"
+        android:textSize="20sp"
+
+        />-->
+  <!--  <Button
+        android:id="@+id/project_Meetings"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/project_Manager"
+        android:layout_alignLeft="@+id/project_Manager"
+        android:background="@drawable/ripple_meetings"
+        android:elevation="12dp"
+        android:text="Meeting Schdeduled"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/project_Task"
+        android:layout_alignRight="@+id/project_Task"
+        android:background="@drawable/ripple_meeting"
+
+        android:elevation="12dp"
+        android:text="Meeting Schdeduled"
+        android:textSize="20sp"
+
+
+        />
+-->
+</RelativeLayout>
+        
+       

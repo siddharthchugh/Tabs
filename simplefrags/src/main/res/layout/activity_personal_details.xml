@@ -1,0 +1,68 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/namedata"
+    android:background="@color/transparent_ornage"
+    tools:context=".MainActivity"
+
+    >
+
+
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/app_toolbar"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolBar"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.richie.simplefrags.PersonalFragment"
+            android:id="@+id/fragmentDetails"
+            />
+
+        <Button
+            android:id="@+id/selectDrive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select your drive"
+            android:textColor="@drawable/clickedstate"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="drive"
+            android:layout_below="@+id/fragmentplace"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/rightarw"
+            android:layout_alignRight="@+id/editText3"
+            android:layout_alignLeft="@+id/editText3"
+            android:background="@drawable/ripple_meeting"
+            android:backgroundTint="@color/textcolor"
+            android:gravity="center_horizontal|center_vertical"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+
+
+

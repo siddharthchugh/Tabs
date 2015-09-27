@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/shadow"/>
+   <item
+     android:drawable="@drawable/lg_signbtn"
+     android:bottom="3px"
+       android:top="3px"
+       android:right="3px"
+       android:left="3px"
+
+       />
+   
+</layer-list>

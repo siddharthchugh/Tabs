@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ListAsynchTeask" />
+            <option value="$PROJECT_DIR$/SpalashView" />
+            <option value="$PROJECT_DIR$/Swipetabs" />
+            <option value="$PROJECT_DIR$/Webview" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bookingtrip" />
+            <option value="$PROJECT_DIR$/list" />
+            <option value="$PROJECT_DIR$/myAsynchTask" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/mydatepicker" />
+            <option value="$PROJECT_DIR$/myfragments" />
+            <option value="$PROJECT_DIR$/myfragtofrag" />
+            <option value="$PROJECT_DIR$/mylayout" />
+            <option value="$PROJECT_DIR$/mylist" />
+            <option value="$PROJECT_DIR$/mylist2" />
+            <option value="$PROJECT_DIR$/mymap" />
+            <option value="$PROJECT_DIR$/mymap2" />
+            <option value="$PROJECT_DIR$/mymodule" />
+            <option value="$PROJECT_DIR$/mynav" />
+            <option value="$PROJECT_DIR$/myreference" />
+            <option value="$PROJECT_DIR$/mysensor" />
+            <option value="$PROJECT_DIR$/mytasks" />
+            <option value="$PROJECT_DIR$/mytaxi" />
+            <option value="$PROJECT_DIR$/myvwpager" />
+            <option value="$PROJECT_DIR$/myweatherapp" />
+            <option value="$PROJECT_DIR$/navy" />
+            <option value="$PROJECT_DIR$/simplefrags" />
+            <option value="$PROJECT_DIR$/taxi" />
+            <option value="$PROJECT_DIR$/tripbooking" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

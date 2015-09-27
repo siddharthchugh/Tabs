@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyTaxi</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string name="open">Open</string>
+<string name="close">Close</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_user_dashboard">Dashboard</string>
+
+    <string-array name="gridData">
+        <item>Book a cab</item>
+        <item>Trips Scheduled</item>
+        <item>Profile Settings</item>
+        <item>Current Location</item>
+        <item>History of trips </item>
+        <item>Comments</item>
+
+    </string-array>
+    <string name="title_activity_book_cab">Booking</string>
+    <string name="title_activity_my_location">CurrentLocation</string>
+
+
+</resources>

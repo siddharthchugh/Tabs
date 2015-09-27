@@ -1,0 +1,2 @@
+include ':app', ':Swipetabs', ':mysensor', ':myAsynchTask', ':ListAsynchTeask', ':navy', ':mytaxi', ':mymap', ':mymap2', ':Webview', ':myweatherapp', ':SpalashView', ':taxi', ':myfragtofrag', ':myfragments', ':simplefrags', ':mydatepicker', ':mylist', ':myapplication', ':tripbooking', ':mytasks', ':bookingtrip', ':mylayout', ':myvwpager', ':mylist2', ':mymodule', ':mynav', ':mylist', ':list'
+include ':myreference'

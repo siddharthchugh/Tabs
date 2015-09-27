@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ListAsynchTeask/ListAsynchTeask.iml" filepath="$PROJECT_DIR$/ListAsynchTeask/ListAsynchTeask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylist2/ListFor.iml" filepath="$PROJECT_DIR$/mylist2/ListFor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyOrder2.iml" filepath="$PROJECT_DIR$/MyOrder2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpalashView/SpalashView.iml" filepath="$PROJECT_DIR$/SpalashView/SpalashView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Swipetabs/Swipetabs.iml" filepath="$PROJECT_DIR$/Swipetabs/Swipetabs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Webview/Webview.iml" filepath="$PROJECT_DIR$/Webview/Webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookingtrip/bookingtrip.iml" filepath="$PROJECT_DIR$/bookingtrip/bookingtrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/list/list.iml" filepath="$PROJECT_DIR$/list/list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myAsynchTask/myAsynchTask.iml" filepath="$PROJECT_DIR$/myAsynchTask/myAsynchTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mydatepicker/mydatepicker.iml" filepath="$PROJECT_DIR$/mydatepicker/mydatepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfragments/myfragments.iml" filepath="$PROJECT_DIR$/myfragments/myfragments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfragtofrag/myfragtofrag.iml" filepath="$PROJECT_DIR$/myfragtofrag/myfragtofrag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylayout/mylayout.iml" filepath="$PROJECT_DIR$/mylayout/mylayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylist/mylist.iml" filepath="$PROJECT_DIR$/mylist/mylist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylist2/mylist2.iml" filepath="$PROJECT_DIR$/mylist2/mylist2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymap/mymap.iml" filepath="$PROJECT_DIR$/mymap/mymap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymap2/mymap2.iml" filepath="$PROJECT_DIR$/mymap2/mymap2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymodule/mymodule.iml" filepath="$PROJECT_DIR$/mymodule/mymodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mynav/mynav.iml" filepath="$PROJECT_DIR$/mynav/mynav.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myreference/myreference.iml" filepath="$PROJECT_DIR$/myreference/myreference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysensor/mysensor.iml" filepath="$PROJECT_DIR$/mysensor/mysensor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytasks/mytasks.iml" filepath="$PROJECT_DIR$/mytasks/mytasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytaxi/mytaxi.iml" filepath="$PROJECT_DIR$/mytaxi/mytaxi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myvwpager/myvwpager.iml" filepath="$PROJECT_DIR$/myvwpager/myvwpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myweatherapp/myweatherapp.iml" filepath="$PROJECT_DIR$/myweatherapp/myweatherapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navy/navy.iml" filepath="$PROJECT_DIR$/navy/navy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplefrags/simplefrags.iml" filepath="$PROJECT_DIR$/simplefrags/simplefrags.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taxi/taxi.iml" filepath="$PROJECT_DIR$/taxi/taxi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tripbooking/tripbooking.iml" filepath="$PROJECT_DIR$/tripbooking/tripbooking.iml" />
+    </modules>
+  </component>
+</project>

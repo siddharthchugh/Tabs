@@ -1,0 +1,124 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/namedata"
+
+    tools:context=".MainActivity"
+
+    >
+
+
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/app_toolbar"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/toolBar"
+        android:background="@drawable/insetlook"
+
+        android:elevation="5dp"
+        android:gravity="center"
+        android:paddingTop="9dp"
+        android:paddingBottom="10dp">
+
+
+        <Button
+            android:id="@+id/roundTrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="one way"
+            android:textColor="@color/text_color"
+            android:textStyle="bold"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textSize="16sp"
+            android:onClick="trip"
+            android:elevation="5dp"
+            android:background="@drawable/ripple_meeting"
+
+            />
+
+        <Button
+            android:id="@+id/oneWay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/text_with_click"
+            android:text="round trip"
+            android:onClick="trip"
+            android:background="@drawable/ripplert"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="2dp"
+            android:layout_alignBaseline="@+id/button1"
+            android:layout_toRightOf="@+id/button1"
+            android:elevation="5dp"
+
+            />
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+
+        >
+
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.richie.myfragtofrag.OneWay"
+            android:id="@+id/fragmentplace"
+            />
+
+        <Button
+            android:id="@+id/selectDrive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select your drive"
+            android:textColor="@color/text_color"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="drive"
+            android:layout_below="@+id/fragmentplace"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/rightarw"
+            android:layout_alignRight="@+id/editText3"
+            android:layout_alignLeft="@+id/editText3"
+            android:background="@drawable/ripple_meeting"
+            android:backgroundTint="@color/text_with_click"
+            android:gravity="center_horizontal|center_vertical"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+
+
+

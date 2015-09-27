@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Travellers Desire</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+   <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_book_trip">BookTrip</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_ow" >One Way</string>
+    <string name="action_rt">Round trip</string>
+    <string name="title_activity_drive__selection">Select your drive</string>
+    <string name="title_activity_personal_details">Personal Details</string>
+
+</resources>

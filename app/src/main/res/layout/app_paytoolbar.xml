@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pay_darkPrimary"
+    app:theme="@style/AppPay.Base"
+    app:popupTheme="@style/Theme.AppCompat.NoActionBar"
+    android:elevation="12dp"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dip"
+        android:soundEffectsEnabled="true"
+        android:elevation="15dp"
+        android:background="@mipmap/shopcart"
+        android:alpha="@android:integer/config_mediumAnimTime"
+
+        />
+</android.support.v7.widget.Toolbar>

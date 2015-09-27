@@ -1,0 +1,255 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_ornage"
+    android:id="@+id/container"
+       tools:context=".MainActivity"
+    >
+
+
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/app_toolbar"
+
+        />
+
+<ScrollView
+    android:id="@+id/carSelect"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/toolBar"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideInset"
+    >
+    <RelativeLayout
+
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/selection_Vehicle"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ripple_meeting"
+            android:elevation="10dp"
+            card_view:cardCornerRadius="8dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:paddingBottom="10dp"
+              >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/indica"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/common_signin_btn_icon_pressed_light"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Indica"
+                    android:textColor="@color/textcolor"
+                    android:textSize="25sp"
+                    android:layout_toRightOf="@+id/indica"
+                   android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/carrequire"
+                    android:layout_alignParentRight="true" />
+
+               <CheckBox
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:textColor="@color/textcolor"
+                   android:textSize="20sp"
+                   android:layout_below="@+id/carrequire"
+                android:layout_alignRight="@+id/carrequire"
+                  android:layout_marginTop="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_alignParentEnd="true"
+                   android:layout_alignBaseline="@+id/indica"
+                   />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:elevation="10dp"
+            card_view:cardCornerRadius="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cardview"
+            android:background="@drawable/ripple_meeting"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/sedan"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/common_signin_btn_icon_pressed_light"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Indica"
+                    android:textColor="@color/textcolor"
+                    android:textSize="25sp"
+                    android:layout_toRightOf="@+id/sedan"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/sed"
+                    android:layout_alignParentRight="true" />
+
+                <CheckBox
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/sed"
+                    android:layout_alignRight="@+id/sed"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignBaseline="@+id/sedan"
+
+                    />
+            </RelativeLayout>
+
+            />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ripple_meeting"
+            android:elevation="10dp"
+            card_view:cardCornerRadius="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cardview1"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/imageView2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/common_signin_btn_icon_pressed_light"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Indica"
+                    android:textColor="@color/textcolor"
+                    android:textSize="25sp"
+                    android:layout_toRightOf="@+id/imageView2"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/textView4"
+                    android:layout_alignParentRight="true" />
+
+                <CheckBox
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/textView4"
+                    android:layout_alignRight="@+id/textView4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignBaseline="@+id/imageView2"
+
+                    />
+            </RelativeLayout>
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView"
+            android:layout_alignTop="@+id/cardview"
+            android:layout_alignRight="@+id/cardview" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+    </ScrollView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Provide Your Details"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ripple_meeting"
+            android:textSize="16sp"
+            android:onClick="personal_details"
+            android:textColor="@color/color"
+            android:id="@+id/button"
+            android:layout_gravity="center" />
+
+
+</RelativeLayout>
+

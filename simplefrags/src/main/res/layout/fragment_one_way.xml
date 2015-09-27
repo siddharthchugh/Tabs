@@ -1,0 +1,327 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@color/textcolor"
+    android:elevation="5dp"
+    tools:context="com.example.richie.simplefrags.OneWay">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Drive from"
+        android:textColor="@color/color"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/source"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginLeft="20dp" />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editSource"
+        android:textColor="@color/textcolor"
+        android:textSize="16sp"
+        android:layout_below="@+id/source"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+
+        >
+        <requestFocus
+            />
+
+    </EditText>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Drive to "
+        android:textColor="@color/color"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/destination"
+        android:layout_alignLeft="@+id/editSource"
+        android:layout_below="@+id/editSource"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dest"
+        android:textColor="@color/textcolor"
+        android:textSize="16sp"
+        android:layout_below="@+id/destination"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
+        >
+
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dest"
+        android:layout_alignRight="@+id/dest"
+        android:layout_alignLeft="@+id/dest"
+        android:layout_marginTop="15dp"
+        android:background="@color/color"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Departure"
+            android:textColor="@color/textcolor"
+            android:textSize="16sp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/dep"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginLeft="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/dep"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/dep"
+            >
+            <ImageView
+                android:id="@+id/depSymbol"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/right"
+                android:layout_alignLeft="@+id/dep"
+                android:layout_below="@+id/dep"
+
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="values"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/dep"
+                android:layout_toRightOf="@+id/depSymbol"
+                android:id="@+id/values"
+                android:layout_alignBaseline="@+id/depSymbol"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+        <!--ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/dep"
+            android:background="@drawable/swap3"
+            />
+        -->
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Return"
+            android:textColor="@color/textcolor"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ret"
+            android:layout_marginTop="5dp"
+            android:layout_alignBaseline="@+id/dep"
+            android:layout_marginRight="25dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ret"
+            android:layout_alignRight="@+id/ret"
+            >
+            <ImageView
+                android:id="@+id/depSymb"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/right"
+                android:layout_alignLeft="@+id/dep"
+                android:layout_below="@+id/dep"
+
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="values"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/dep"
+                android:layout_toRightOf="@+id/depSymbol"
+                android:id="@+id/returnValues"
+                android:layout_alignBaseline="@+id/depSymbol"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+    <!--<Button
+        android:id="@+id/selectD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select your drive"
+        android:textColor="@drawable/clickedstate"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:drawableLeft="@drawable/rightarw"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ripple_meeting"
+        android:gravity="center_horizontal|center_vertical"
+        android:backgroundTint="@color/textcolor"
+        />
+-->
+
+    <!--
+        <LinearLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/book_layout"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:background="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="one way"
+                android:textColor="@drawable/clickedstate"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:textSize="16sp"
+                android:onClick="trip"
+             android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+                android:background="@drawable/rippleclassic"
+
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+       android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@drawable/clickedstate"
+                android:text="round"
+                android:onClick="trip"
+                android:background="@drawable/ripple_business"
+                android:textSize="16sp"
+                android:layout_marginLeft="2dp"
+                android:layout_alignBaseline="@+id/button1"
+                android:layout_toRightOf="@+id/button1"
+
+                />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@drawable/clickedstate"
+                android:text="round trip"
+                android:onClick="trip"
+                android:background="@drawable/ripple_meeting"
+                android:textSize="16sp"
+                android:layout_marginLeft="2dp"
+                android:layout_alignBaseline="@+id/button1"
+                android:layout_toRightOf="@+id/button1"
+
+                />
+
+
+
+        </LinearLayout>
+    -->
+
+    <!--
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_marginTop="0dp"
+            >
+
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.example.richie.simplefrags.OneWay"
+                android:id="@+id/fragmentplace"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+    -->
+
+
+
+</RelativeLayout>

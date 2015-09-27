@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/ripple_meetings"
+    android:clickable="true"
+    >
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="20dp"
+        android:elevation="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:background="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="text"
+        android:id="@+id/textItems"
+        android:layout_marginLeft="35dp"
+        android:layout_alignBaseline="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:paddingTop="16dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="72dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <CheckBox
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/checkItems"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="15dp"
+      android:layout_marginRight="16dp"
+        android:paddingTop="20dp"
+        android:layout_alignBaseline="@+id/imageView3"
+       android:layout_alignParentEnd="true"
+        android:paddingBottom="20dp"
+        />
+</RelativeLayout>

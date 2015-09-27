@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/thanks_bar"
+    app:theme="@style/AppTheme.Base"
+    app:popupTheme="@style/Theme.AppCompat.NoActionBar"
+    android:elevation="12dp">
+
+    <!--
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dip"
+            android:soundEffectsEnabled="true"
+            android:elevation="5dp"
+            android:layout_marginEnd="10dp"
+
+            />
+    -->
+</android.support.v7.widget.Toolbar>

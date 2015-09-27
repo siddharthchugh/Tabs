@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyList</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string-array name="Categories"
+    >
+    <item>sales</item>
+    <item>marketing</item>
+    <item>Finance</item>
+
+
+
+</string-array>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>

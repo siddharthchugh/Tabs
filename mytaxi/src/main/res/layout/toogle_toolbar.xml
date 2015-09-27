@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/textColor"
+    app:theme="@style/MyTaxiLayout"
+    app:popupTheme="@style/Theme.AppCompat.NoActionBar"
+    android:elevation="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/toogleLayout"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="@color/textColor"
+        android:elevation="5dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One Way"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textSize="16sp"
+            android:background="@drawable/ripple_task"
+            android:id="@+id/oneWay"
+            android:layout_marginRight="1dp"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Round Trip"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textSize="16sp"
+            android:background="@drawable/ripple_task"
+            android:id="@+id/roundTrip"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>
+
+

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.richie.tripbooking.Login_User">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/appbar"
+
+
+        />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/white"
+        android:id="@+id/relativeLayout">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editText5"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+
+             />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText6"
+            android:layout_below="@+id/editText5"
+            android:layout_alignLeft="@+id/editText5"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:onClick="Next"
+            android:id="@+id/button2"
+            android:layout_below="@+id/editText6"
+            android:layout_alignLeft="@+id/editText6"
+            android:layout_marginTop="44dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textSize="20sp"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/editText5" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_marginTop="69dp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

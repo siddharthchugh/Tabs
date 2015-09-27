@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyTaxiLayout" parent="AppTheme">
+
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:textColor">@color/textColor</item>
+
+    </style>
+
+    <style name="MyProfile" parent="AppTheme">
+
+        <item name="android:colorPrimary">@color/primaryProfile</item>
+        <item name="android:colorPrimaryDark">@color/primaryDarkProfile</item>
+        <item name="android:colorAccent">@color/accentProfile</item>
+        <item name="android:textColor">@color/textColorProfile</item>
+
+    </style>
+
+</resources>

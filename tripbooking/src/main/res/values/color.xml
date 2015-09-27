@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkPrim">#f57c00</color>
+    <color name="Prim">#ff9800</color>
+    <color name="aColor">#F57C00</color>
+<color name="white">#fff</color>
+    <color name="drakgreen">#4CAF50</color>
+    <color name="lightblue">#303F9F</color>
+    <color name="ornage">#ff9800</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="transparent_ornage">#FFB74D</color>
+    <color name="textcolor">#FF8F00</color>
+
+    <color name="detail_bg">#2196f3</color>
+</resources>

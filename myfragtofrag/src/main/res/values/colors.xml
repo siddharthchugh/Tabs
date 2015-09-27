@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="button_state">#669900</color>
+    <color name="button_state_onclick">#006698</color>
+    <color name="text_color">#fff</color>
+    <color name="text_with_click">#ffcc11</color>
+<color name="red">#D50000</color>
+    <color name="darlpink">#C51162</color>
+
+</resources>
